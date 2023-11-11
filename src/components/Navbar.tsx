@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className=' h-24 flex justify-between items-center pt-10'>
+    <div className=' h-24 flex justify-between items-center pt-10 mb-10'>
       <Image
         src={"/logo.svg"}
         height={200}

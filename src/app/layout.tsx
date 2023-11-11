@@ -20,10 +20,9 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={inter.className}>
-        <div className=' w-full min-h-screen mx-auto p-0 sm:px-16 flex flex-col justify-between'>
+        <div className=''>
           <Navbar />
           {children}
-          <Footer />
         </div>
       </body>
     </html>
