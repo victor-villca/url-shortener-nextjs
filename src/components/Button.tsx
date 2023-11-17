@@ -14,10 +14,10 @@ const iconSize = 25
     <>
         <button
         onClick={onClickAction}
-         className= {`flex justify-between items-center gap-2 
+         className= {`flex justify-between items-center gap-2 m-1
          ${ bg ? bg: 'bg-blue-10'} p-2 rounded-full`} >
-          <p className= {` ${big ? 'flex': 'hidden' } font-bold text-white whitespace-nowrap lg:flex`}>{label}</p>
-          {icon && React.cloneElement(icon as React.ReactElement, { size: iconSize, color: 'white' })}
+          <p className= {` ${big ? 'flex': 'hidden' } p-2 font-bold text-white whitespace-nowrap lg:flex`}>{label}</p>
+          <div className='p-2'>{icon && React.cloneElement(icon as React.ReactElement, { size: iconSize, color: 'white' })}</div>
         </button>
     </>
   )
