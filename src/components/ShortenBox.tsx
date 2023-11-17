@@ -37,8 +37,8 @@ const ShortenBox = () => {
         <span className='styleGradient text-2xl font-serif'>QuickShort Linke&nbsp;</span> 
        transforms clunky URLs into sleek, personalized links. Simplify, track, and slay the link game with style. Try it now and amp up your sharing coolness!</p>
       <div className=' w-full'>
-        <div className=' relative my-5 mx-auto w-[350px] h-16 flex justify-between border-4 border-blue-500 rounded-full z-10 px-5
-         lg:w-[600px]'>
+        <div className=' relative my-5 mx-auto w-[350px] h-16 flex gap-5 justify-between border-4 border-blue-500 rounded-full z-10 px-5
+         lg:w-[600px] ' >
           <input
             type="url"
             placeholder='Enter the link here'
@@ -62,10 +62,13 @@ const ShortenBox = () => {
                 <FaRegCopy  size = {iconSize} color= {"white"}/>
         </div>
         {isLoading ? (
-            <p>Loading...</p>
+            <p className='text-white'>Loading...</p>
           ) : (
-            <Link href={shortenedLink} className='text-white' target="_blank" rel="noopener noreferrer">
-              {shortenedLink ? 'Your link here...' : ''}
+            <Link href={shortenedLink}  target="_blank" rel="noopener noreferrer">
+              {shortenedLink ? 
+              <p className='styleGradient font-semibold text-2xl'>{shortenedLink}</p> : 
+              <p className='text-white'>'Your link weill be here'</p>
+              }
             </Link>
           )}
       </div>
