@@ -10,7 +10,7 @@ The URL shortening functionality is powered by the QuickShort Linke API. To lear
 
 ## Live Demo
 
-You can experience the live version of this URL Shortener UI by accessing it through the following email address: [urexamolel@gmail.com](mailto:urexamolel@gmail.com).
+You can experience the live version of this URL Shortener UI by accessing it through the following email address: [https://url-shortener-nextjs-delta.vercel.app/](https://url-shortener-nextjs-delta.vercel.app/).
 
 ## Getting Started
 
@@ -35,10 +35,10 @@ To run this project locally, follow these steps:
 
 ## Contributions
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/your-username/your-repo).
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/victor-villca/url-shortener-nextjs).
 
 ## License
 
-This URL Shortener UI is licensed under the [MIT License](LICENSE.md).
+This URL Shortener UI is licensed under the MIT License.
 
 Thank you for using the URL Shortener UI! If you have any questions or need further assistance, feel free to reach out.
