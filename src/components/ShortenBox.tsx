@@ -67,7 +67,7 @@ const ShortenBox = () => {
             <Link href={shortenedLink}  target="_blank" rel="noopener noreferrer">
               {shortenedLink ? 
               <p className='styleGradient font-semibold text-2xl'>{shortenedLink}</p> : 
-              <p className='text-white'>'Your link weill be here'</p>
+              <p className='text-white'>&apos;Your link weill be here&apos;</p>
               }
             </Link>
           )}
